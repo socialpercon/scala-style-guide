@@ -330,7 +330,7 @@ class DataFrame {
 
 ### <a name='pattern-matching'>패턴 매칭</a>
 
-- 함수 전체가 페턴 매칭을 하는 함수라면 `match` 를 함수의 정의로써 가장 앞에 같은 줄에 놓습니다. 이와 같이 들여쓰기의 레벨을 한단계 줄이도록 합니다.
+- 함수 전체가 패턴 매칭을 하는 함수라면 `match` 를 함수의 정의로써 가장 앞에 같은 줄에 놓습니다. 이와 같이 들여쓰기의 레벨을 한 단계 줄이도록 합니다.
   ```scala
   def test(msg: Message): Unit = msg match {
     case ...
@@ -1009,5 +1009,4 @@ class JavaFriendlyAPI {
 어떤 서비스의 URL을 정렬 할 때, `URI` 표현을 사용하는 것이 권장됩니다.
 
 `URL`의 [동일성 검사](http://docs.oracle.com/javase/7/docs/api/java/net/URL.html#equals(java.lang.Object)) 는 사실 IP 주소를 알아내기 위해 (블로킹) 네트워크 호출을 합니다.  `URI` 클래스는 필드의 동일성을 확인하고 `URL`의 상위 집합 입니다.
-
 
